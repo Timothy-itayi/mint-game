@@ -1,0 +1,136 @@
+{
+  "segments": [
+    {
+      "id": "innie-15",
+      "perspective": "innie",
+      "day": 15,
+      "time": "9:00 AM - 10:45 AM",
+      "title": "Day 15 - Late Timeline",
+      "description": "You clock in. The manager immediately looks hostile. The kitchen feels worn, tense. You find notes in your apron you don't remember writing.",
+      "environment": "Worn, tense - equipment chipped, counters faded",
+      "notes": [
+        "Trust yourself",
+        "Check storage room",
+        "Manager is watching",
+        "Co-workers are scared",
+        "Customer knows you",
+        "Time doesn't add up",
+        "Something is wrong"
+      ],
+      "decisionId": "decision-1",
+      "nextSegmentId": "outie-1"
+    },
+    {
+      "id": "outie-1",
+      "perspective": "outie",
+      "day": 1,
+      "time": "7:30 AM",
+      "title": "Day 1 - First Warning",
+      "description": "You wake up preparing for your first day. An unknown number calls. A voice warns: 'You're going to lose time.' You're confused, dismissive. You write your first note: 'Trust yourself'.",
+      "environment": "Your apartment - normal, clear morning",
+      "notes": [],
+      "nextSegmentId": "innie-10"
+    },
+    {
+      "id": "innie-10",
+      "perspective": "innie",
+      "day": 10,
+      "time": "10:45 AM - 2:00 PM",
+      "title": "Day 10 - Mid Timeline",
+      "description": "You notice you have FEWER notes than before. The schedule shows an earlier date. Confusion grows. A co-worker mentions finding a journal in storage.",
+      "environment": "Moderate wear - things look newer than last time",
+      "notes": [
+        "Trust yourself",
+        "Check storage room",
+        "Time is backwards?",
+        "Journal in storage"
+      ],
+      "decisionId": "decision-2",
+      "nextSegmentId": "outie-5"
+    },
+    {
+      "id": "outie-5",
+      "perspective": "outie",
+      "day": 5,
+      "time": "6:00 PM",
+      "title": "Day 5 - Meeting the Guide",
+      "description": "Coffee shop. You meet the Guide face-to-face. 'I don't remember work at all,' you say. The Guide shows evidence of time gaps. You're learning about severance.",
+      "environment": "Coffee shop - neutral, safe space",
+      "notes": [
+        "Guide is helping",
+        "Time gaps confirmed",
+        "Integration is possible"
+      ],
+      "decisionId": "decision-3",
+      "nextSegmentId": "innie-5"
+    },
+    {
+      "id": "innie-5",
+      "perspective": "innie",
+      "day": 5,
+      "time": "2:00 PM - 4:00 PM",
+      "title": "Day 5 - Early Timeline",
+      "description": "The environment looks newer. Co-workers are friendly, chatty. The music is newly annoying. A customer gives a vague warning. Everything seems almost normal.",
+      "environment": "Fresh, newer - equipment looks new",
+      "notes": [
+        "Trust yourself"
+      ],
+      "nextSegmentId": "outie-10"
+    },
+    {
+      "id": "outie-10",
+      "perspective": "outie",
+      "day": 10,
+      "time": "11:00 PM",
+      "title": "Day 10 - Memory Collapse",
+      "description": "You wake up disoriented, hours missing. Your phone has photos you don't remember taking. A note from innie: 'I found the journal.' Both selves are working toward the same goal.",
+      "environment": "Your apartment - disoriented, time gaps",
+      "notes": [
+        "Memory gaps severe",
+        "Innie found journal",
+        "Both selves communicating"
+      ],
+      "nextSegmentId": "innie-1"
+    },
+    {
+      "id": "innie-1",
+      "perspective": "innie",
+      "day": 1,
+      "time": "9:00 AM - 4:00 PM",
+      "title": "Day 1 - The True Beginning",
+      "description": "Full tutorial. Everything is normal and optimistic. Manager introduces the playlist. No customer interactions yet. You realize: This was the beginning.",
+      "environment": "Pristine, new - everything fresh",
+      "notes": [],
+      "nextSegmentId": "outie-15"
+    },
+    {
+      "id": "outie-15",
+      "perspective": "outie",
+      "day": 15,
+      "time": "6:30 AM",
+      "title": "Day 15 - Final Push",
+      "description": "Meeting with Guide, barely functional. 'Today is the convergence.' 'Do something kind, something human.' You encounter a stranger who needs help.",
+      "environment": "Pre-work - final meeting point",
+      "notes": [
+        "Convergence today",
+        "Be kind",
+        "Help someone"
+      ],
+      "decisionId": "convergence-outie",
+      "nextSegmentId": "convergence"
+    },
+    {
+      "id": "convergence",
+      "perspective": "innie",
+      "day": 15,
+      "time": "10:45 AM",
+      "title": "Convergence",
+      "description": "Both timelines collapse. A co-worker collapses. You must choose: help or obey?",
+      "environment": "Kitchen - crisis moment",
+      "notes": [],
+      "decisionId": "convergence-innie",
+      "nextSegmentId": "end"
+    }
+  ]
+}
+

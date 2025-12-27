@@ -1,0 +1,65 @@
+{
+  "endings": {
+    "escape": {
+      "id": "escape",
+      "title": "Escape",
+      "description": "You break free from the loop. Both selves integrate. You leave the kitchen behind, but carry the weight of what you've learned.",
+      "requirements": {
+        "decisions": {
+          "decision-1": ["A"],
+          "decision-2": ["B"],
+          "decision-3": ["A", "C"],
+          "convergence-innie": ["A"],
+          "convergence-outie": ["A"]
+        }
+      }
+    },
+    "expose": {
+      "id": "expose",
+      "title": "Expose",
+      "description": "You reveal the truth about severance. The system is exposed, but you're not sure if you've truly escaped or just started a new loop.",
+      "requirements": {
+        "decisions": {
+          "decision-1": ["A"],
+          "decision-2": ["B"],
+          "decision-3": ["A"],
+          "convergence-innie": ["A"],
+          "convergence-outie": ["A"]
+        }
+      }
+    },
+    "liberation": {
+      "id": "liberation",
+      "title": "Liberation",
+      "description": "You work with others to break free. Solidarity triumphs. You're not alone in this fight.",
+      "requirements": {
+        "decisions": {
+          "decision-1": ["C"],
+          "decision-2": ["C"],
+          "decision-3": ["A", "C"],
+          "convergence-innie": ["A"],
+          "convergence-outie": ["A"]
+        }
+      }
+    },
+    "surrender": {
+      "id": "surrender",
+      "title": "Surrender",
+      "description": "You accept the split. The loop continues. You become another lost soul in the machine.",
+      "requirements": {
+        "decisions": {
+          "decision-3": ["B"]
+        }
+      }
+    },
+    "loop": {
+      "id": "loop",
+      "title": "Loop Reset",
+      "description": "Convergence failed. The loop resets. You keep one puzzle card and try again.",
+      "requirements": {
+        "default": true
+      }
+    }
+  }
+}
+

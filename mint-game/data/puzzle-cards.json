@@ -1,0 +1,23 @@
+{
+  "puzzleCards": [
+    {
+      "id": "manager-role",
+      "title": "Manager's Role",
+      "description": "The manager knows about the severance. They're complicit in maintaining the split.",
+      "loopRequirement": 1
+    },
+    {
+      "id": "temporal-structure",
+      "title": "Temporal Structure",
+      "description": "Innie experiences time backwards. Outie experiences time forwards. They meet at convergence.",
+      "loopRequirement": 2
+    },
+    {
+      "id": "recognition-method",
+      "title": "Recognition Method",
+      "description": "Both selves must perform the same act of compassion simultaneously to recognize each other.",
+      "loopRequirement": 3
+    }
+  ]
+}
+

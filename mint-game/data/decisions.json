@@ -1,0 +1,92 @@
+{
+  "decisions": [
+    {
+      "id": "decision-1",
+      "segmentId": "innie-15",
+      "prompt": "You find notes you don't remember writing. The manager is watching. A co-worker says you've been acting strange. What do you do?",
+      "choices": {
+        "A": {
+          "label": "Investigate immediately",
+          "type": "investigate"
+        },
+        "B": {
+          "label": "Ignore, focus on tasks",
+          "type": "ignore"
+        },
+        "C": {
+          "label": "Ask co-workers what's happening",
+          "type": "ask"
+        }
+      }
+    },
+    {
+      "id": "decision-2",
+      "segmentId": "innie-10",
+      "prompt": "The manager orders you to do dishes. You remember a note about checking the storage room. What do you do?",
+      "choices": {
+        "A": {
+          "label": "Obey manager, dishes first",
+          "type": "obey"
+        },
+        "B": {
+          "label": "Check storage room",
+          "type": "check"
+        },
+        "C": {
+          "label": "Ask co-worker to cover for you",
+          "type": "cover"
+        }
+      }
+    },
+    {
+      "id": "decision-3",
+      "segmentId": "outie-5",
+      "prompt": "The Guide explains integration is possible but dangerous. What do you choose?",
+      "choices": {
+        "A": {
+          "label": "Continue integration",
+          "type": "continue"
+        },
+        "B": {
+          "label": "Accept the split",
+          "type": "accept"
+        },
+        "C": {
+          "label": "Find the escaped person first",
+          "type": "find"
+        }
+      }
+    },
+    {
+      "id": "convergence-innie",
+      "segmentId": "convergence",
+      "prompt": "A co-worker collapses. The manager orders you to keep working. What do you do?",
+      "choices": {
+        "A": {
+          "label": "Help the co-worker",
+          "type": "help"
+        },
+        "B": {
+          "label": "Obey the manager",
+          "type": "obey"
+        }
+      }
+    },
+    {
+      "id": "convergence-outie",
+      "segmentId": "outie-15",
+      "prompt": "A stranger needs help. You're running late for work. What do you do?",
+      "choices": {
+        "A": {
+          "label": "Help the stranger",
+          "type": "help"
+        },
+        "B": {
+          "label": "Ignore and go to work",
+          "type": "ignore_stranger"
+        }
+      }
+    }
+  ]
+}
+
